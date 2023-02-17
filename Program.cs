@@ -13,6 +13,7 @@ namespace ConsoleApp1
             using (var db = new Model3Container())
             {
                 // Create and save a new Student
+                Console.Write("bsmallah");
                 Console.Write("Enter a name for a new Student: ");
                 var firstName = Console.ReadLine();
                 var student = new Student
